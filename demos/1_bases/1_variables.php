@@ -59,9 +59,9 @@ echo $prenom;
 // https://www.php.net/manual/fr/language.types.type-juggling.php
 
 // Permet de convertir une chaîne de caractère en entier
-$age = (int) readline("Saisir un âge: ");
+$age = (int)readline("Saisir un âge: ");
 
-$age = (int) "40";
+$age = (int)"40";
 
 echo gettype($age);
 
