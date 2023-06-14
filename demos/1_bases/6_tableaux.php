@@ -32,3 +32,11 @@ echo $a;
 $tableau2 = [...$tableau, ...$tableau1];
 
 print_r($tableau2);
+
+$tabMulti = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+
+foreach ($tabMulti as $tab) {
+    foreach ($tab as $val) {
+        echo $val, PHP_EOL;
+    }
+}
