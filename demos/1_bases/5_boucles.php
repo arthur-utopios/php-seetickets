@@ -41,3 +41,9 @@ $tableauAssociatif["un"];
 foreach ($tableauAssociatif as $key => $value) {
     echo "$key => $value\n";
 }
+
+$tabMulti = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+
+foreach ($tabMulti as $tab) {
+    print_r($tab);
+}
