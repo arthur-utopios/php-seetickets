@@ -95,3 +95,4 @@ unset($variable);
 echo $variable;
 
 echo PHP_VERSION;
+
