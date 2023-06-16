@@ -26,7 +26,7 @@ try {
     // On exécute un traitement en cas de capture d'une exception
     echo $e->getLine(), $e->getMessage();
 } catch (Exception $e) {
-    echo "Exception inconnue";
+echo "Exception inconnue";
 } finally {
     // Ce blog de code s'exécute dans tous les cas
     echo "Fin du bloc try catch";

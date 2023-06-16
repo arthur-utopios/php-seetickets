@@ -1,3 +1,5 @@
 <?php
 
-phpinfo();
+$arr = ['toto' => 3];
+
+echo $arr['key'] ?? 'la clé n"existe pas';
